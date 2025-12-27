@@ -1,0 +1,27 @@
+{
+  "name": "zenbot",
+  "version": "1.0.0",
+  "description": "Discord ladder ranking bot for Roblox competitive play",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "db:reset": "node src/database/reset.js",
+    "db:seed": "node src/database/seed.js",
+    "db:quick-seed": "node src/database/quickSeed.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "leaderboard",
+    "ranking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
