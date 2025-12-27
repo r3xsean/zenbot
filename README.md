@@ -6,7 +6,7 @@ A Discord bot that automates competitive ladder rankings for Roblox games. Playe
 
 ### Core System
 - **Easy Setup** - Configure all channels via `/setup` command with an interactive button interface
-- **Live Leaderboard** - Top 10 rankings with form guide (last 5 matches), days at rank, and cooldown status
+- **Live Leaderboard** - Top 10 rankings with cooldown status
 - **Challenge System** - Button-based challenges with automatic rule validation
 - **Score Submission** - Discord modals for entering match scores (Challenger submits, Defender confirms)
 - **Automatic Rank Swaps** - Winner takes the rank when challenger beats defender
